@@ -20,7 +20,7 @@ class InstaBot:
         self.driver.find_element(By.XPATH, "//button[contains(text(), 'Not Now')]").click()
         sleep(5)
 
-    def get_non_mutual(self):
+    def get_non_mutuals(self):
 
         self.driver.find_element(By.XPATH, "//a[contains(@href, '/{}')]".format(self.username)).click()
         sleep(25)

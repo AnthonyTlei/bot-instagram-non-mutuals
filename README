@@ -1,0 +1,7 @@
+-- To install packages in requirements
+    -- pip3 install -r requirements
+
+-- Make sure to have a keys.json file
+    -- USERNAME
+    -- PASSWORD
+
